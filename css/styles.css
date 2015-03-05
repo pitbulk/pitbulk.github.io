@@ -189,7 +189,7 @@ body {
 	/* Positioning & Display */
     display: block;
     height: 1px;
-    width: 23%;
+    width: 21.5%;
     position: absolute;
     left: 0;
     top: 1em;
@@ -333,6 +333,11 @@ div.soc {
 .my_expertise {
 	margin-top: 60px;
 }
+
+.my_expertise article {
+	padding-bottom: 20px;
+}
+
 .skill_level {
 	margin-top: 10px;
 	padding: 0 12px 0 7px;
@@ -358,10 +363,18 @@ div.soc {
 .experience p, .education p {
 	color: #958c8c;
 }
+
+.experience div.span9 div.row-fluid article span.period {
+	float: left;
+	max-width:120px;	
+	margin-bottom: 30px;
+	position: absolute;
+}
+
 .onelogin {
 	float: left;
-	margin-left: -5px;
 	padding-top: 30px;
+	margin-left: -5px;
 	position: absolute;
 }
 .yaco {
@@ -390,10 +403,9 @@ div.soc {
 	margin-top: 60px;
 }
 .projects div.title {
-    float: left;
+    max-width:130px;
     font-size: 1.8em;
     position: absolute;
-    width: 130px;
 }
 .products {
 	margin-top: 60px;
