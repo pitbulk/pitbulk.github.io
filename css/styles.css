@@ -405,7 +405,7 @@ div.soc {
 .projects div.title {
     max-width:130px;
     font-size: 1.8em;
-    position: absolute;
+/*    position: absolute; */
 }
 .products {
 	margin-top: 60px;
@@ -413,7 +413,7 @@ div.soc {
 .products div.title {
     float: left;
     font-size: 1.5em;
-    position: absolute;
+/*    position: absolute; */
     width: 130px;
 }
 .row-fluid p{
