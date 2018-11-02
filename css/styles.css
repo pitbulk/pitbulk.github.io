@@ -368,25 +368,25 @@ div.soc {
 	float: left;
 	max-width:120px;	
 	margin-bottom: 30px;
-	position: absolute;
 }
 
 .onelogin {
 	float: left;
 	padding-top: 30px;
 	margin-left: -5px;
-	position: absolute;
+	padding-right: 5px;
+/*	position: absolute; */
 }
 .yaco {
 	float: left;
 	margin-left: 0px;
 	padding-top: 35px;
-	position: absolute;
+	padding-right: 5px;
+/*	position: absolute; */
 }
 .period  {
 	/* Positioning & Display */
 	position: absolute;
-	top: 0;
 	padding-left: 5px;
 	padding-right: 5px;
 	/* Text */
@@ -396,6 +396,7 @@ div.soc {
 	/* Color */
 	background-color: #0099e8;
 }
+
 .bigspacing {
 	padding-left: 155px;
 }
@@ -537,6 +538,9 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
 	}
 }
 @media only screen and (max-width: 870px) {
+	.site_header h1 {
+		font: bold 4em 'Arvo',serif;
+	}
 	.site_header h1:before,
 	.site_header h1:after {
 		width: 28%;
@@ -807,6 +811,23 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
 	.page {
 		padding-bottom: 40px;
 	}
+	.onelogin {
+		padding-top: 0px;
+		clear:both;
+	}
+	.yaco {
+		padding-top: 0px;
+		clear:both;
+	}	
+	.period {
+		position: relative;
+	}
+	.bigspacing {
+		clear:both;
+	}
+	.info {
+		float:left;
+	}
 }
 @media only screen and (max-width: 420px) {
 	/* galleryContainer */
@@ -847,10 +868,25 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
 		margin-right: 0px;
 		margin-bottom: 0px;
 	}
+	.period {
+		position: relative;
+	}
+	.onelogin {
+		padding-top: 0px;
+	}
+	.yaco {
+		padding-top: 0px;
+	}
+	.bigspacing {
+		clear:both;
+	}
+	.info {
+		float:left;
+	}
 }
 @media only screen and (max-width: 360px) {
 	.site_header h1 {
-		font: bold 2em 'Arvo',serif;
+		font: bold 1.6em 'Arvo',serif;
 	}
 	.period {
 		font-size: 1.1em;
@@ -859,6 +895,21 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
 		font: 1.4em 'Arvo',serif;
 		margin-top: 3px;
 		padding-top: 2px;
+	}
+	.onelogin {
+		padding-top: 0px;
+	}
+	.yaco {
+		padding-top: 0px;
+	}
+	.period {
+		position: relative;
+	}
+	.bigspacing {
+		clear:both;
+	}
+	.info {
+		float:left;
 	}
 }
 /* Retina screens patterns */
