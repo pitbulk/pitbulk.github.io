@@ -17,7 +17,7 @@ This End User License Agreement ("Agreement") is entered into by and between Six
 
 1.1.3 Non Assignable & Non-Transferable: Licensee may not assign or transfer his rights and duties under this license.
 
-1.1.4 Non-Commercial: Licensee may not use Software for commercial purposes. for the purpose of this license, commercial purposes means that a 3rd party has to pay in order to access Software or that the Website that runs Software is behind a paywall.
+1.1.4 Non-Commercial: Licensee may not use Software for commercial purposes, means that the licensee can't resell the software to a 3rd party. 
 
 1.2 Term and termination: The Term of this license shall be until terminated. Licensor may terminate this Agreement, including Licensee’s license in the case where Licensee:
 
